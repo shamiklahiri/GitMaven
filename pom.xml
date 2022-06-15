@@ -6,6 +6,14 @@
   <artifactId>GitMaven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+  
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/shamiklahiri/GitMaven</url>
+    </repository>
+  </distributionManagement>
 
   <name>GitMaven</name>
   <url>http://maven.apache.org</url>
