@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sam.test</groupId>
-  <artifactId>GitMaven-Tryout</artifactId>
+  <artifactId>shouldjustwork</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
