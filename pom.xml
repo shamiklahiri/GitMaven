@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sam.tryout</groupId>
-  <artifactId>GitMaven</artifactId>
+  <artifactId>git-maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   
@@ -11,15 +11,9 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/shamiklahiri/${project.artifactId}</url>
+      <url>https://maven.pkg.github.com/shamiklahiri/GitMaven</url>
     </repository>
   </distributionManagement>
-  <scm>
-    <connection>scm:git:${project.scm.url}</connection>
-    <developerConnection>scm:git:${project.scm.url}</developerConnection>
-    <url>https://github.com/shamiklahiri/${project.artifactId}.git</url>
-    <tag>HEAD</tag>
-  </scm>
 
   <name>GitMaven</name>
   <url>http://maven.apache.org</url>
